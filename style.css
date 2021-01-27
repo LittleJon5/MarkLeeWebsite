@@ -67,7 +67,7 @@ nav>ul>li:first-of-type{
 li{
     line-height: 125%;
     /*width: 120px;*/
-    margin-left: 6px; /*adds a margin on the left of each <li>*/
+    margin-left: 18px; /*adds a margin on the left of each <li>*/
     /*display: block;*/
 }
 nav a{
@@ -75,14 +75,14 @@ nav a{
     color: #a25744;
     font-family: Arial, Helvetica, sans-serif;
     /*display: block;*/
-    padding: 3px;
+    padding: 6px;
 }
 header nav{
     display: grid;
     grid-template-columns: auto auto 540px;
 }
 header nav ul{
-    grid-column-start: 3;
+    grid-column-start: 2;
     grid-column-end: 4;
     float: right;
 }
