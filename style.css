@@ -120,6 +120,22 @@ section{
     margin-top: 12pt;
     margin-left: 12pt;
 }
+blockquote{
+    line-height: 125%;
+    margin-left: 6pt;
+    margin-bottom: 18pt;
+    margin-top: 18pt;
+    margin-right: 12pt;
+    padding-left: 12pt;
+    padding-right: 12pt;
+    
+    border-left: 3px solid #8eacbf;
+}
+cite{
+    text-align: right;
+    color: #594c39;
+    display: block;
+}
 footer{
     text-align: right;
     background-color: #97b5c0;
