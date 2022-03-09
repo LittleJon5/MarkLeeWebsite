@@ -46,6 +46,7 @@ h5{
 h6{
     font-family: Tahoma, sans-serif;
     font-size: 350%;
+    display: none;
 }
 p{
     line-height: 125%;
@@ -66,7 +67,7 @@ nav>ul>li:first-of-type{
 li{
     line-height: 125%;
     /*width: 120px;*/
-    margin-left: 6px; /*adds a margin on the left of each <li>*/
+    margin-left: 18px; /*adds a margin on the left of each <li>*/
     /*display: block;*/
 }
 nav a{
@@ -74,14 +75,14 @@ nav a{
     color: #a25744;
     font-family: Arial, Helvetica, sans-serif;
     /*display: block;*/
-    padding: 3px;
+    padding: 6px;
 }
 header nav{
     display: grid;
     grid-template-columns: auto auto 540px;
 }
 header nav ul{
-    grid-column-start: 3;
+    grid-column-start: 2;
     grid-column-end: 4;
     float: right;
 }
@@ -119,6 +120,22 @@ section{
     margin-top: 12pt;
     margin-left: 12pt;
 }
+blockquote{
+    line-height: 125%;
+    margin-left: 6pt;
+    margin-bottom: 18pt;
+    margin-top: 18pt;
+    margin-right: 12pt;
+    padding-left: 12pt;
+    padding-right: 12pt;
+    font-size: 13.5pt;
+    border-left: 3px solid #8eacbf;
+}
+cite{
+    text-align: right;
+    color: #594c39;
+    display: block;
+}
 footer{
     text-align: right;
     background-color: #97b5c0;
@@ -133,7 +150,7 @@ iframe{
     height: 1200px;/*to make resume display one whole page at a time*/
     position: relative;
 }
-@media only screen and (max-width: 820px){ 
+@media only screen and (max-width: 600px){ 
     
     nav ul{
         display: block;/*line up navigation vertically*/ 
@@ -154,4 +171,7 @@ main{
     border-right: 1px solid #394d59;
     border-left: 1px solid #394d59;
  }
+}
+@media only screen and (min-width: 820px){
+    nav>ul{display: flex;}
 }

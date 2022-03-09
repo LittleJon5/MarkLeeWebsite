@@ -13,5 +13,5 @@ $(document).ready(function(){
     });
  });
  $(document).ready(function(){
-    $("h6").fadeIn(5)
+    $("h6").fadeIn()
  });
